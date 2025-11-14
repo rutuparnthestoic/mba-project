@@ -1007,6 +1007,12 @@ export default function Home() {
                 Mindful adventures for a new generation. Disconnect, find your
                 flow, and recharge your life.
               </p>
+              <p>
+              Mail : zenithjourneys01@gmail.com
+              </p>
+              <p>
+              Contact: 7022316790
+              </p>
             </div>
             <div>
               <h4 className="text-lg font-bold mb-4">Quick Links</h4>
