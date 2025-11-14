@@ -32,7 +32,7 @@ export default function Home() {
       title: '7-Day Spiritual Journey – Rishikesh',
       duration: '7 Days / 6 Nights',
       theme: 'Yoga, Mindfulness & Nature Connection',
-      budget: '₹20,000 per person',
+      budget: '₹18,000-₹20,000 per person',
       stay: 'Ashram or yoga retreat in Tapovan/Lakshman Jhula area (e.g., Parmarth Niketan, Maa Yoga Ashram, Zostel Rishikesh)',
       image: '/rishikesh.jpeg',
       dayByDayPlan: [
@@ -134,7 +134,7 @@ export default function Home() {
       title: '7-Day Spiritual Itinerary – Bodh Gaya',
       duration: '7 Days / 6 Nights',
       theme: 'Mindfulness & the Path to Enlightenment',
-      budget: '₹20,000 per person',
+      budget: '₹20,000-₹25,000 per person',
       stay: 'Near Mahabodhi Temple – options like Root Institute for Wisdom Culture, Bodhgaya Regency Hotel, or Thai Monastery Guesthouse',
       image: '/bodh-gaya.jpeg',
       dayByDayPlan: [
@@ -233,7 +233,7 @@ export default function Home() {
       title: 'DHARAMSHALA – The Abode of Peace and Compassion',
       duration: '7 Days / 6 Nights',
       theme: 'Mindfulness, Compassion & Simple Living',
-      budget: '₹20,000 per person',
+      budget: '₹17,000-₹23,000 per person',
       stay: 'McLeod Ganj / Dharamkot area — options like Tibet World, Norling Guest House, or youth-friendly hostels & monastery stays',
       image: '/dharmshala.jpeg',
       dayByDayPlan: [
@@ -329,7 +329,7 @@ export default function Home() {
       title: 'RAMESWARAM – The Island of Purity and Devotion',
       duration: '7 Days / 6 Nights',
       theme: 'Faith, Cleansing, and Inner Peace through Pilgrimage',
-      budget: '₹20,000 per person',
+      budget: '₹20,000-₹23,000 per person',
       stay: 'Near Ramanathaswamy Temple or Agni Theertham — options like Daiwik Hotel, Jiwan Residency, or budget homestays',
       image: '/rameshwaram.jpeg',
       dayByDayPlan: [
@@ -426,7 +426,7 @@ export default function Home() {
       title: 'PURI – The Land of Lord Jagannath',
       duration: '7 Days / 6 Nights',
       theme: 'Faith, Devotion, and Unity through Service and Culture',
-      budget: '₹20,000 per person',
+      budget: '₹18,000-₹23,000 per person',
       stay: 'Near Jagannath Temple or Marine Drive — options like Mayfair Heritage, Hotel Niladri, or youth-friendly guesthouses',
       image: '/puri.jpeg',
       dayByDayPlan: [
