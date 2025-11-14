@@ -1003,7 +1003,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4">Zenith Journeys</h3>
-              <p className="text-gray-400 leading-relaxed">
+              <p className="text-gray-400 leading-relaxed mb-2">
                 Mindful adventures for a new generation. Disconnect, find your
                 flow, and recharge your life.
               </p>
