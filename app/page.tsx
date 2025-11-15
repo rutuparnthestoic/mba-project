@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef } from 'react';
+import Image from 'next/image';
 import {
   Mountain,
   Users,
@@ -32,7 +33,7 @@ export default function Home() {
       title: '7-Day Spiritual Journey – Rishikesh',
       duration: '7 Days / 6 Nights',
       theme: 'Yoga, Mindfulness & Nature Connection',
-      budget: '₹18,000-₹20,000 per person',
+      budget: '₹17,000-₹25,000 per person',
       stay: 'Ashram or yoga retreat in Tapovan/Lakshman Jhula area (e.g., Parmarth Niketan, Maa Yoga Ashram, Zostel Rishikesh)',
       image: '/rishikesh.jpeg',
       dayByDayPlan: [
@@ -134,7 +135,7 @@ export default function Home() {
       title: '7-Day Spiritual Itinerary – Bodh Gaya',
       duration: '7 Days / 6 Nights',
       theme: 'Mindfulness & the Path to Enlightenment',
-      budget: '₹20,000-₹25,000 per person',
+      budget: '₹17,000-₹25,000 per person',
       stay: 'Near Mahabodhi Temple – options like Root Institute for Wisdom Culture, Bodhgaya Regency Hotel, or Thai Monastery Guesthouse',
       image: '/bodh-gaya.jpeg',
       dayByDayPlan: [
@@ -233,7 +234,7 @@ export default function Home() {
       title: 'DHARAMSHALA – The Abode of Peace and Compassion',
       duration: '7 Days / 6 Nights',
       theme: 'Mindfulness, Compassion & Simple Living',
-      budget: '₹17,000-₹23,000 per person',
+      budget: '₹17,000-₹25,000 per person',
       stay: 'McLeod Ganj / Dharamkot area — options like Tibet World, Norling Guest House, or youth-friendly hostels & monastery stays',
       image: '/dharmshala.jpeg',
       dayByDayPlan: [
@@ -329,7 +330,7 @@ export default function Home() {
       title: 'RAMESWARAM – The Island of Purity and Devotion',
       duration: '7 Days / 6 Nights',
       theme: 'Faith, Cleansing, and Inner Peace through Pilgrimage',
-      budget: '₹20,000-₹23,000 per person',
+      budget: '₹17,000-₹25,000 per person',
       stay: 'Near Ramanathaswamy Temple or Agni Theertham — options like Daiwik Hotel, Jiwan Residency, or budget homestays',
       image: '/rameshwaram.jpeg',
       dayByDayPlan: [
@@ -426,7 +427,7 @@ export default function Home() {
       title: 'PURI – The Land of Lord Jagannath',
       duration: '7 Days / 6 Nights',
       theme: 'Faith, Devotion, and Unity through Service and Culture',
-      budget: '₹18,000-₹23,000 per person',
+      budget: '₹17,000-₹25,000 per person',
       stay: 'Near Jagannath Temple or Marine Drive — options like Mayfair Heritage, Hotel Niladri, or youth-friendly guesthouses',
       image: '/puri.jpeg',
       dayByDayPlan: [
@@ -785,6 +786,17 @@ export default function Home() {
       >
         <div className="absolute inset-0 bg-black/40"></div>
         <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
+          <div className="mb-8 flex justify-center">
+            <div className="relative w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
+              <Image
+                src="/logo-z.jpeg"
+                alt="Zenith Journeys Logo"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
+          </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Disconnect to Reconnect
           </h1>
@@ -1000,18 +1012,12 @@ export default function Home() {
 
       <footer className="bg-gray-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
             <div>
               <h3 className="text-2xl font-bold mb-4">Zenith Journeys</h3>
-              <p className="text-gray-400 leading-relaxed mb-2">
+              <p className="text-gray-400 leading-relaxed">
                 Mindful adventures for a new generation. Disconnect, find your
                 flow, and recharge your life.
-              </p>
-              <p>
-              Mail : zenithjourneys01@gmail.com
-              </p>
-              <p>
-              Contact: 7022316790
               </p>
             </div>
             <div>
@@ -1029,17 +1035,29 @@ export default function Home() {
                 >
                   FAQ
                 </a>
-                <a
-                  href="#"
-                  className="block text-gray-400 hover:text-white transition-colors"
-                >
-                  Contact
-                </a>
+                
                 <a
                   href="#"
                   className="block text-gray-400 hover:text-white transition-colors"
                 >
                   Privacy Policy
+                </a>
+              </div>
+            </div>
+            <div>
+              <h4 className="text-lg font-bold mb-4">Contact Us</h4>
+              <div className="space-y-3">
+                <a
+                  href="mailto:zenithjourneys01@gmail.com"
+                  className="block text-gray-400 hover:text-white transition-colors"
+                >
+                  zenithjourneys01@gmail.com
+                </a>
+                <a
+                  href="tel:+917022316790"
+                  className="block text-gray-400 hover:text-white transition-colors"
+                >
+                  +91 7022316790
                 </a>
               </div>
             </div>
